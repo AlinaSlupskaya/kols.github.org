@@ -1,0 +1,18 @@
+2019-05-04T11:22:07+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/c/cl93841/kolsfurniture.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:647
+Stack trace:
+#0 /home/c/cl93841/kolsfurniture.com/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/c/cl93841/kolsfurniture.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/c/cl93841/kolsfurniture.com/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/c/cl93841/kolsfurniture.com/public_html/wp-admin/admin-ajax.php(100): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2019-05-04T11:29:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /home/c/cl93841/kolsfurniture.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:647
+Stack trace:
+#0 /home/c/cl93841/kolsfurniture.com/public_html/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /home/c/cl93841/kolsfurniture.com/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/c/cl93841/kolsfurniture.com/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/c/cl93841/kolsfurniture.com/public_html/wp-admin/admin-ajax.php(100): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
